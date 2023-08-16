@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B12FD4AB2A8CEE640052D575 /* FlightAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */; };
-		B12FD4AD2A8CEE640052D575 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AC2A8CEE640052D575 /* ContentView.swift */; };
+		B12FD4AD2A8CEE640052D575 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AC2A8CEE640052D575 /* MainView.swift */; };
 		B12FD4AF2A8CEE660052D575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12FD4AE2A8CEE660052D575 /* Assets.xcassets */; };
 		B12FD4B32A8CEE660052D575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12FD4B22A8CEE660052D575 /* Preview Assets.xcassets */; };
 		B12FD4BD2A8CEE660052D575 /* FlightAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4BC2A8CEE660052D575 /* FlightAppTests.swift */; };
 		B12FD4C72A8CEE670052D575 /* FlightAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4C62A8CEE670052D575 /* FlightAppUITests.swift */; };
 		B12FD4C92A8CEE670052D575 /* FlightAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4C82A8CEE670052D575 /* FlightAppUITestsLaunchTests.swift */; };
+		B12FD4E22A8CF7E10052D575 /* FlightTxtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4E12A8CF7E10052D575 /* FlightTxtView.swift */; };
+		B12FD4E42A8CFF2C0052D575 /* AkasaLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4E32A8CFF2C0052D575 /* AkasaLogo.swift */; };
+		B12FD4E72A8CFF580052D575 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4E62A8CFF580052D575 /* ImageConstants.swift */; };
+		B12FD4E92A8CFFD20052D575 /* FlightLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4E82A8CFFD20052D575 /* FlightLogo.swift */; };
+		B12FD4EC2A8D02CC0052D575 /* CountryNumbers.json in Resources */ = {isa = PBXBuildFile; fileRef = B12FD4EB2A8D02CC0052D575 /* CountryNumbers.json */; };
+		B12FD4EE2A8D03070052D575 /* CPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4ED2A8D03070052D575 /* CPData.swift */; };
+		B12FD4F12A8D03530052D575 /* BundleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4F02A8D03530052D575 /* BundleService.swift */; };
+		B12FD4F32A8D05960052D575 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4F22A8D05960052D575 /* PhoneNumberView.swift */; };
+		B12FD4F62A8D067C0052D575 /* PhoneNumberPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4F52A8D067C0052D575 /* PhoneNumberPatternView.swift */; };
+		B12FD4FB2A8D0C2A0052D575 /* FlightBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4FA2A8D0C2A0052D575 /* FlightBtn.swift */; };
+		B12FD4FD2A8D0D260052D575 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4FC2A8D0D260052D575 /* RoundedCorners.swift */; };
+		B12FD5052A8D18F40052D575 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5002A8D18F40052D575 /* OpenSans-Regular.ttf */; };
+		B12FD5062A8D18F40052D575 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5012A8D18F40052D575 /* OpenSans-SemiBold.ttf */; };
+		B12FD5072A8D18F40052D575 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5022A8D18F40052D575 /* OpenSans-ExtraBold.ttf */; };
+		B12FD5082A8D18F40052D575 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5032A8D18F40052D575 /* OpenSans-Bold.ttf */; };
+		B12FD5092A8D18F40052D575 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5042A8D18F40052D575 /* OpenSans-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,7 @@
 /* Begin PBXFileReference section */
 		B12FD4A72A8CEE640052D575 /* FlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppApp.swift; sourceTree = "<group>"; };
-		B12FD4AC2A8CEE640052D575 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B12FD4AC2A8CEE640052D575 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B12FD4AE2A8CEE660052D575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12FD4B02A8CEE660052D575 /* FlightApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlightApp.entitlements; sourceTree = "<group>"; };
 		B12FD4B22A8CEE660052D575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +61,23 @@
 		B12FD4C22A8CEE670052D575 /* FlightAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12FD4C62A8CEE670052D575 /* FlightAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppUITests.swift; sourceTree = "<group>"; };
 		B12FD4C82A8CEE670052D575 /* FlightAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B12FD4E12A8CF7E10052D575 /* FlightTxtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTxtView.swift; sourceTree = "<group>"; };
+		B12FD4E32A8CFF2C0052D575 /* AkasaLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkasaLogo.swift; sourceTree = "<group>"; };
+		B12FD4E62A8CFF580052D575 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		B12FD4E82A8CFFD20052D575 /* FlightLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogo.swift; sourceTree = "<group>"; };
+		B12FD4EB2A8D02CC0052D575 /* CountryNumbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryNumbers.json; sourceTree = "<group>"; };
+		B12FD4ED2A8D03070052D575 /* CPData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPData.swift; sourceTree = "<group>"; };
+		B12FD4F02A8D03530052D575 /* BundleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleService.swift; sourceTree = "<group>"; };
+		B12FD4F22A8D05960052D575 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		B12FD4F52A8D067C0052D575 /* PhoneNumberPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberPatternView.swift; sourceTree = "<group>"; };
+		B12FD4FA2A8D0C2A0052D575 /* FlightBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBtn.swift; sourceTree = "<group>"; };
+		B12FD4FC2A8D0D260052D575 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		B12FD4FE2A8D12300052D575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B12FD5002A8D18F40052D575 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		B12FD5012A8D18F40052D575 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		B12FD5022A8D18F40052D575 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B12FD5032A8D18F40052D575 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B12FD5042A8D18F40052D575 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +128,17 @@
 		B12FD4A92A8CEE640052D575 /* FlightApp */ = {
 			isa = PBXGroup;
 			children = (
+				B12FD4FE2A8D12300052D575 /* Info.plist */,
 				B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */,
-				B12FD4AC2A8CEE640052D575 /* ContentView.swift */,
+				B12FD4D82A8CEE9D0052D575 /* ViewModels */,
+				B12FD4D72A8CEE930052D575 /* Models */,
+				B12FD4D52A8CEE790052D575 /* NetworkServices */,
+				B12FD4E02A8CF7B50052D575 /* HelperWidgets */,
+				B12FD4F72A8D0BE70052D575 /* HelperViews */,
+				B12FD4D62A8CEE880052D575 /* Presentation */,
+				B12FD4DA2A8CEF310052D575 /* Utils */,
+				B12FD4F42A8D064C0052D575 /* Extensions */,
+				B12FD4DD2A8CF6810052D575 /* Helpers */,
 				B12FD4AE2A8CEE660052D575 /* Assets.xcassets */,
 				B12FD4B02A8CEE660052D575 /* FlightApp.entitlements */,
 				B12FD4B12A8CEE660052D575 /* Preview Content */,
@@ -127,6 +169,118 @@
 				B12FD4C82A8CEE670052D575 /* FlightAppUITestsLaunchTests.swift */,
 			);
 			path = FlightAppUITests;
+			sourceTree = "<group>";
+		};
+		B12FD4D52A8CEE790052D575 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4EF2A8D03370052D575 /* BundleService */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		B12FD4D62A8CEE880052D575 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4AC2A8CEE640052D575 /* MainView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B12FD4D72A8CEE930052D575 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4ED2A8D03070052D575 /* CPData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B12FD4D82A8CEE9D0052D575 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B12FD4DA2A8CEF310052D575 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4FF2A8D18B10052D575 /* Fonts */,
+				B12FD4E52A8CFF470052D575 /* ImageConstants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B12FD4DD2A8CF6810052D575 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4EA2A8D029A0052D575 /* JsonFiles */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B12FD4E02A8CF7B50052D575 /* HelperWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4E12A8CF7E10052D575 /* FlightTxtView.swift */,
+				B12FD4E32A8CFF2C0052D575 /* AkasaLogo.swift */,
+				B12FD4E82A8CFFD20052D575 /* FlightLogo.swift */,
+				B12FD4FA2A8D0C2A0052D575 /* FlightBtn.swift */,
+			);
+			path = HelperWidgets;
+			sourceTree = "<group>";
+		};
+		B12FD4E52A8CFF470052D575 /* ImageConstants */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4E62A8CFF580052D575 /* ImageConstants.swift */,
+			);
+			path = ImageConstants;
+			sourceTree = "<group>";
+		};
+		B12FD4EA2A8D029A0052D575 /* JsonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4EB2A8D02CC0052D575 /* CountryNumbers.json */,
+			);
+			path = JsonFiles;
+			sourceTree = "<group>";
+		};
+		B12FD4EF2A8D03370052D575 /* BundleService */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4F02A8D03530052D575 /* BundleService.swift */,
+			);
+			path = BundleService;
+			sourceTree = "<group>";
+		};
+		B12FD4F42A8D064C0052D575 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4F52A8D067C0052D575 /* PhoneNumberPatternView.swift */,
+				B12FD4FC2A8D0D260052D575 /* RoundedCorners.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B12FD4F72A8D0BE70052D575 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD4F22A8D05960052D575 /* PhoneNumberView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		B12FD4FF2A8D18B10052D575 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD5032A8D18F40052D575 /* OpenSans-Bold.ttf */,
+				B12FD5022A8D18F40052D575 /* OpenSans-ExtraBold.ttf */,
+				B12FD5042A8D18F40052D575 /* OpenSans-Light.ttf */,
+				B12FD5002A8D18F40052D575 /* OpenSans-Regular.ttf */,
+				B12FD5012A8D18F40052D575 /* OpenSans-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12FD4B32A8CEE660052D575 /* Preview Assets.xcassets in Resources */,
+				B12FD5082A8D18F40052D575 /* OpenSans-Bold.ttf in Resources */,
+				B12FD5092A8D18F40052D575 /* OpenSans-Light.ttf in Resources */,
 				B12FD4AF2A8CEE660052D575 /* Assets.xcassets in Resources */,
+				B12FD5062A8D18F40052D575 /* OpenSans-SemiBold.ttf in Resources */,
+				B12FD5052A8D18F40052D575 /* OpenSans-Regular.ttf in Resources */,
+				B12FD4EC2A8D02CC0052D575 /* CountryNumbers.json in Resources */,
+				B12FD5072A8D18F40052D575 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +419,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12FD4AD2A8CEE640052D575 /* ContentView.swift in Sources */,
+				B12FD4F32A8D05960052D575 /* PhoneNumberView.swift in Sources */,
+				B12FD4E42A8CFF2C0052D575 /* AkasaLogo.swift in Sources */,
+				B12FD4F12A8D03530052D575 /* BundleService.swift in Sources */,
+				B12FD4EE2A8D03070052D575 /* CPData.swift in Sources */,
+				B12FD4FD2A8D0D260052D575 /* RoundedCorners.swift in Sources */,
+				B12FD4FB2A8D0C2A0052D575 /* FlightBtn.swift in Sources */,
+				B12FD4AD2A8CEE640052D575 /* MainView.swift in Sources */,
+				B12FD4F62A8D067C0052D575 /* PhoneNumberPatternView.swift in Sources */,
+				B12FD4E92A8CFFD20052D575 /* FlightLogo.swift in Sources */,
+				B12FD4E72A8CFF580052D575 /* ImageConstants.swift in Sources */,
 				B12FD4AB2A8CEE640052D575 /* FlightAppApp.swift in Sources */,
+				B12FD4E22A8CF7E10052D575 /* FlightTxtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +520,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -401,6 +572,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -412,11 +584,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FlightApp/FlightApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FlightApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlightApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -434,8 +609,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.FlightApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,11 +626,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FlightApp/FlightApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FlightApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlightApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -470,8 +651,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.FlightApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +675,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.FlightAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -513,7 +697,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.FlightAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -534,7 +718,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.FlightAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -555,7 +739,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.FlightAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
