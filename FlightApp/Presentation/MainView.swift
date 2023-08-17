@@ -14,7 +14,6 @@ struct MainView: View {
             PhoneNumberView()
             FlightBtn(buttonName: "Sign in with OTP")
             Spacer()
-            Spacer()
         }
         .padding().background(Color("Background"))
     }
