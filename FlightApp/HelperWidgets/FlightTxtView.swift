@@ -14,7 +14,7 @@ struct FlightTxtView: View {
         HStack(alignment: .center) {
             TextField(userName, text: $flightTxtView).font(.custom("OpenSans-Regular", size: 16))
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-        }.padding().padding().background(Color("LightGrayColor")).cornerRadius(8)
+        }.padding().background(Color("LightGrayColor")).cornerRadius(8)
     }
 }
 

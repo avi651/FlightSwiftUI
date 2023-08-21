@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10FE25A2A9344C20040847D /* HomeTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2592A9344C20040847D /* HomeTabBarView.swift */; };
+		B10FE25C2A9345490040847D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE25B2A9345490040847D /* HomeView.swift */; };
+		B10FE25E2A9345630040847D /* FlightBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE25D2A9345630040847D /* FlightBookView.swift */; };
+		B10FE2602A9345700040847D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE25F2A9345700040847D /* ProfileView.swift */; };
+		B10FE2622A93457A0040847D /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2612A93457A0040847D /* MoreView.swift */; };
+		B10FE2642A937E7F0040847D /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2632A937E7F0040847D /* AuthServices.swift */; };
+		B10FE26A2A93867B0040847D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2692A93867B0040847D /* Constants.swift */; };
+		B10FE26D2A938A920040847D /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = B10FE26C2A938A920040847D /* ACarousel */; };
+		B10FE26F2A938ACF0040847D /* FlightCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE26E2A938ACF0040847D /* FlightCarouselView.swift */; };
+		B10FE2712A9398950040847D /* ImageLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2702A9398950040847D /* ImageLogoView.swift */; };
+		B10FE2732A9399F60040847D /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2722A9399F60040847D /* Spacing.swift */; };
 		B12FD4AB2A8CEE640052D575 /* FlightAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */; };
 		B12FD4AD2A8CEE640052D575 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AC2A8CEE640052D575 /* MainView.swift */; };
 		B12FD4AF2A8CEE660052D575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12FD4AE2A8CEE660052D575 /* Assets.xcassets */; };
@@ -30,6 +41,10 @@
 		B12FD5072A8D18F40052D575 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5022A8D18F40052D575 /* OpenSans-ExtraBold.ttf */; };
 		B12FD5082A8D18F40052D575 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5032A8D18F40052D575 /* OpenSans-Bold.ttf */; };
 		B12FD5092A8D18F40052D575 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD5042A8D18F40052D575 /* OpenSans-Light.ttf */; };
+		B1A352AF2A8DF3C50051EB4E /* LabelledDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352AE2A8DF3C50051EB4E /* LabelledDivider.swift */; };
+		B1A352B12A8E20550051EB4E /* PlainTxtBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352B02A8E20550051EB4E /* PlainTxtBtn.swift */; };
+		B1A352B32A8E21640051EB4E /* BorderedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352B22A8E21640051EB4E /* BorderedBtn.swift */; };
+		B1A352B52A8E5EAA0051EB4E /* SocialMediaBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352B42A8E5EAA0051EB4E /* SocialMediaBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +65,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B10FE2592A9344C20040847D /* HomeTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarView.swift; sourceTree = "<group>"; };
+		B10FE25B2A9345490040847D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10FE25D2A9345630040847D /* FlightBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBookView.swift; sourceTree = "<group>"; };
+		B10FE25F2A9345700040847D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B10FE2612A93457A0040847D /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		B10FE2632A937E7F0040847D /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		B10FE2692A93867B0040847D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B10FE26E2A938ACF0040847D /* FlightCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCarouselView.swift; sourceTree = "<group>"; };
+		B10FE2702A9398950040847D /* ImageLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLogoView.swift; sourceTree = "<group>"; };
+		B10FE2722A9399F60040847D /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		B12FD4A72A8CEE640052D575 /* FlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppApp.swift; sourceTree = "<group>"; };
 		B12FD4AC2A8CEE640052D575 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -78,6 +103,10 @@
 		B12FD5022A8D18F40052D575 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		B12FD5032A8D18F40052D575 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		B12FD5042A8D18F40052D575 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		B1A352AE2A8DF3C50051EB4E /* LabelledDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledDivider.swift; sourceTree = "<group>"; };
+		B1A352B02A8E20550051EB4E /* PlainTxtBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTxtBtn.swift; sourceTree = "<group>"; };
+		B1A352B22A8E21640051EB4E /* BorderedBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedBtn.swift; sourceTree = "<group>"; };
+		B1A352B42A8E5EAA0051EB4E /* SocialMediaBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10FE26D2A938A920040847D /* ACarousel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +213,11 @@
 			isa = PBXGroup;
 			children = (
 				B12FD4AC2A8CEE640052D575 /* MainView.swift */,
+				B10FE2592A9344C20040847D /* HomeTabBarView.swift */,
+				B10FE25B2A9345490040847D /* HomeView.swift */,
+				B10FE25D2A9345630040847D /* FlightBookView.swift */,
+				B10FE25F2A9345700040847D /* ProfileView.swift */,
+				B10FE2612A93457A0040847D /* MoreView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -198,6 +233,7 @@
 		B12FD4D82A8CEE9D0052D575 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B10FE2632A937E7F0040847D /* AuthServices.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +262,11 @@
 				B12FD4E32A8CFF2C0052D575 /* AkasaLogo.swift */,
 				B12FD4E82A8CFFD20052D575 /* FlightLogo.swift */,
 				B12FD4FA2A8D0C2A0052D575 /* FlightBtn.swift */,
+				B1A352AE2A8DF3C50051EB4E /* LabelledDivider.swift */,
+				B1A352B02A8E20550051EB4E /* PlainTxtBtn.swift */,
+				B1A352B22A8E21640051EB4E /* BorderedBtn.swift */,
+				B1A352B42A8E5EAA0051EB4E /* SocialMediaBtn.swift */,
+				B10FE2702A9398950040847D /* ImageLogoView.swift */,
 			);
 			path = HelperWidgets;
 			sourceTree = "<group>";
@@ -259,6 +300,8 @@
 			children = (
 				B12FD4F52A8D067C0052D575 /* PhoneNumberPatternView.swift */,
 				B12FD4FC2A8D0D260052D575 /* RoundedCorners.swift */,
+				B10FE2692A93867B0040847D /* Constants.swift */,
+				B10FE2722A9399F60040847D /* Spacing.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -267,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				B12FD4F22A8D05960052D575 /* PhoneNumberView.swift */,
+				B10FE26E2A938ACF0040847D /* FlightCarouselView.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -299,6 +343,9 @@
 			dependencies = (
 			);
 			name = FlightApp;
+			packageProductDependencies = (
+				B10FE26C2A938A920040847D /* ACarousel */,
+			);
 			productName = FlightApp;
 			productReference = B12FD4A72A8CEE640052D575 /* FlightApp.app */;
 			productType = "com.apple.product-type.application";
@@ -371,6 +418,9 @@
 				Base,
 			);
 			mainGroup = B12FD49E2A8CEE640052D575;
+			packageReferences = (
+				B10FE26B2A938A920040847D /* XCRemoteSwiftPackageReference "ACarousel" */,
+			);
 			productRefGroup = B12FD4A82A8CEE640052D575 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -419,17 +469,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10FE26A2A93867B0040847D /* Constants.swift in Sources */,
+				B10FE25A2A9344C20040847D /* HomeTabBarView.swift in Sources */,
+				B1A352AF2A8DF3C50051EB4E /* LabelledDivider.swift in Sources */,
 				B12FD4F32A8D05960052D575 /* PhoneNumberView.swift in Sources */,
+				B10FE26F2A938ACF0040847D /* FlightCarouselView.swift in Sources */,
 				B12FD4E42A8CFF2C0052D575 /* AkasaLogo.swift in Sources */,
 				B12FD4F12A8D03530052D575 /* BundleService.swift in Sources */,
 				B12FD4EE2A8D03070052D575 /* CPData.swift in Sources */,
+				B10FE25E2A9345630040847D /* FlightBookView.swift in Sources */,
+				B10FE2622A93457A0040847D /* MoreView.swift in Sources */,
 				B12FD4FD2A8D0D260052D575 /* RoundedCorners.swift in Sources */,
+				B10FE2732A9399F60040847D /* Spacing.swift in Sources */,
+				B1A352B32A8E21640051EB4E /* BorderedBtn.swift in Sources */,
+				B1A352B12A8E20550051EB4E /* PlainTxtBtn.swift in Sources */,
+				B10FE25C2A9345490040847D /* HomeView.swift in Sources */,
 				B12FD4FB2A8D0C2A0052D575 /* FlightBtn.swift in Sources */,
+				B10FE2642A937E7F0040847D /* AuthServices.swift in Sources */,
+				B10FE2602A9345700040847D /* ProfileView.swift in Sources */,
 				B12FD4AD2A8CEE640052D575 /* MainView.swift in Sources */,
 				B12FD4F62A8D067C0052D575 /* PhoneNumberPatternView.swift in Sources */,
 				B12FD4E92A8CFFD20052D575 /* FlightLogo.swift in Sources */,
 				B12FD4E72A8CFF580052D575 /* ImageConstants.swift in Sources */,
 				B12FD4AB2A8CEE640052D575 /* FlightAppApp.swift in Sources */,
+				B1A352B52A8E5EAA0051EB4E /* SocialMediaBtn.swift in Sources */,
+				B10FE2712A9398950040847D /* ImageLogoView.swift in Sources */,
 				B12FD4E22A8CF7E10052D575 /* FlightTxtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,6 +852,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B10FE26B2A938A920040847D /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B10FE26C2A938A920040847D /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10FE26B2A938A920040847D /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B12FD49F2A8CEE640052D575 /* Project object */;
 }

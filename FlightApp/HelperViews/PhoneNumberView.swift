@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 
 struct PhoneNumberView: View {
+    @State var navigationPlainBtn = false
     @State var presentSheet = false
     @State var countryCode : String = "+1"
     @State var countryFlag : String = "🇺🇸"
@@ -25,7 +26,7 @@ struct PhoneNumberView: View {
         GeometryReader { geo in
             let hasHomeIndicator = geo.safeAreaInsets.bottom > 0
             NavigationStack {
-                VStack {
+                VStack() {
                     HStack {
                         Button {
                             presentSheet = true
@@ -55,13 +56,20 @@ struct PhoneNumberView: View {
                     .padding(.top, 20)
                     .padding(.bottom, 15)
                     
-//                    Button {
-//                        // Move to the next step
-//                    } label: {
-//                        Text("Next")
-//                    }
-//                    .disableWithOpacity(mobPhoneNumber.count < 1)
-//                    .buttonStyle(OnboardingButtonStyle())
+                    FlightBtn(buttonName: "Sign in with OTP", flightBtnCallback: phoneNumberOtpCalled)
+                        .disableWithOpacity(mobPhoneNumber.count < 12)
+                    LabelledDivider(label: "OR").padding(.top, 16)
+                    PlainTxtBtn(plainBtnName: "Sign in with password" ).padding(.top, 16)
+                    BorderedBtn(buttonBorderName: "Sign up for faster checkout", flightBorderBtnCallback: {}).padding(.top, 48)
+                    LabelledDivider(label: "OR").padding(.top, 16)
+                    VStack(alignment: .center){
+                        HStack{
+                            SocialMediaBtn(imageName: ImageConstants.facebookLogo)
+                            SocialMediaBtn(imageName: ImageConstants.googleLogo)
+                            SocialMediaBtn(imageName: ImageConstants.appleLogo)
+                        }
+                    }.padding(.top,16)
+                    PlainTxtBtn(plainBtnName: "Continue as guest").padding(.top, 16)
                 }
                 .animation(.easeInOut(duration: 0.6), value: keyIsFocused)
                 .padding(.horizontal)
@@ -100,6 +108,14 @@ struct PhoneNumberView: View {
             .presentationDetents([.medium, .large])
         }
         .ignoresSafeArea(.keyboard)
+    }
+    
+    private func phoneNumberOtpCalled() {
+        print("CallBack Called")
+    }
+    
+    private func navigateToTabView(isNavigateTabView: Bool) {
+      
     }
     
     var filteredResorts: [CPData] {

@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct MainView: View {
+    @EnvironmentObject var authService:AuthService
     var body: some View {
-        VStack(alignment: .center) {
-            AkasaLogo()
-            PhoneNumberView()
-            FlightBtn(buttonName: "Sign in with OTP")
-            Spacer()
+        ZStack{
+            if(!authService.signedIn){
+                VStack(alignment: .center, spacing: 10){
+                    VStack() {
+                        AkasaLogo()
+                        PhoneNumberView()
+                    }
+                    Spacer()
+                }
+            } else {
+                HomeTabBarView()
+            }
         }
-        .padding().background(Color("Background"))
     }
 }
 

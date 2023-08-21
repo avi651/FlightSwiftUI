@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
-
 @main
 struct FlightAppApp: App {
+    let viewModel = AuthService(signedIn: false)
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                MainView()
+                MainView().environmentObject(viewModel)
             }
         }
     }
