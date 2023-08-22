@@ -15,7 +15,7 @@ struct FlightLogo: View {
                 .scaledToFit().cornerRadius(10)
                 .overlay(RoundedRectangle(cornerRadius: 10)
                     .stroke(Color("PrimaryColor"), lineWidth: 1))
-                .shadow(radius: 10)
+                .shadow(radius: 4)
                 .frame(width: 200.0, height: 80.0)
         }
     }

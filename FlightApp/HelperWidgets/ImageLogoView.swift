@@ -13,7 +13,7 @@ struct ImageLogoView: View {
             Image(ImageConstants.akasaLogo)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 50.0, height: 50.0)
+                .frame(width: 80.0, height: 80.0)
         }
     }
 }

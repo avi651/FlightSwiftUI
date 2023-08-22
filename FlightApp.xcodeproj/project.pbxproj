@@ -17,7 +17,6 @@
 		B10FE26D2A938A920040847D /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = B10FE26C2A938A920040847D /* ACarousel */; };
 		B10FE26F2A938ACF0040847D /* FlightCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE26E2A938ACF0040847D /* FlightCarouselView.swift */; };
 		B10FE2712A9398950040847D /* ImageLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2702A9398950040847D /* ImageLogoView.swift */; };
-		B10FE2732A9399F60040847D /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FE2722A9399F60040847D /* Spacing.swift */; };
 		B12FD4AB2A8CEE640052D575 /* FlightAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */; };
 		B12FD4AD2A8CEE640052D575 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FD4AC2A8CEE640052D575 /* MainView.swift */; };
 		B12FD4AF2A8CEE660052D575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12FD4AE2A8CEE660052D575 /* Assets.xcassets */; };
@@ -45,6 +44,15 @@
 		B1A352B12A8E20550051EB4E /* PlainTxtBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352B02A8E20550051EB4E /* PlainTxtBtn.swift */; };
 		B1A352B32A8E21640051EB4E /* BorderedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352B22A8E21640051EB4E /* BorderedBtn.swift */; };
 		B1A352B52A8E5EAA0051EB4E /* SocialMediaBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A352B42A8E5EAA0051EB4E /* SocialMediaBtn.swift */; };
+		B1B5ED262A94885E00D12300 /* FlightRoundedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED252A94885E00D12300 /* FlightRoundedCardView.swift */; };
+		B1B5ED282A94BC2C00D12300 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED272A94BC2C00D12300 /* Spacing.swift */; };
+		B1B5ED2A2A94BEAD00D12300 /* IgnoreSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED292A94BEAD00D12300 /* IgnoreSafeArea.swift */; };
+		B1B5ED2C2A94D58E00D12300 /* FlightStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED2B2A94D58D00D12300 /* FlightStatusCard.swift */; };
+		B1B5ED2E2A94D88B00D12300 /* HomeFlightStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED2D2A94D88B00D12300 /* HomeFlightStatusCard.swift */; };
+		B1B5ED302A94DFF300D12300 /* CityCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED2F2A94DFF300D12300 /* CityCarouselView.swift */; };
+		B1B5ED322A94FAF100D12300 /* HomeCarouselImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED312A94FAF100D12300 /* HomeCarouselImg.swift */; };
+		B1B5ED342A950CDB00D12300 /* City.json in Resources */ = {isa = PBXBuildFile; fileRef = B1B5ED332A950CDB00D12300 /* City.json */; };
+		B1B5ED362A950DFE00D12300 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED352A950DFE00D12300 /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +82,6 @@
 		B10FE2692A93867B0040847D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B10FE26E2A938ACF0040847D /* FlightCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCarouselView.swift; sourceTree = "<group>"; };
 		B10FE2702A9398950040847D /* ImageLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLogoView.swift; sourceTree = "<group>"; };
-		B10FE2722A9399F60040847D /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		B12FD4A72A8CEE640052D575 /* FlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12FD4AA2A8CEE640052D575 /* FlightAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppApp.swift; sourceTree = "<group>"; };
 		B12FD4AC2A8CEE640052D575 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -107,6 +114,15 @@
 		B1A352B02A8E20550051EB4E /* PlainTxtBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTxtBtn.swift; sourceTree = "<group>"; };
 		B1A352B22A8E21640051EB4E /* BorderedBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedBtn.swift; sourceTree = "<group>"; };
 		B1A352B42A8E5EAA0051EB4E /* SocialMediaBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaBtn.swift; sourceTree = "<group>"; };
+		B1B5ED252A94885E00D12300 /* FlightRoundedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRoundedCardView.swift; sourceTree = "<group>"; };
+		B1B5ED272A94BC2C00D12300 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		B1B5ED292A94BEAD00D12300 /* IgnoreSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeArea.swift; sourceTree = "<group>"; };
+		B1B5ED2B2A94D58D00D12300 /* FlightStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusCard.swift; sourceTree = "<group>"; };
+		B1B5ED2D2A94D88B00D12300 /* HomeFlightStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFlightStatusCard.swift; sourceTree = "<group>"; };
+		B1B5ED2F2A94DFF300D12300 /* CityCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCarouselView.swift; sourceTree = "<group>"; };
+		B1B5ED312A94FAF100D12300 /* HomeCarouselImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarouselImg.swift; sourceTree = "<group>"; };
+		B1B5ED332A950CDB00D12300 /* City.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = City.json; sourceTree = "<group>"; };
+		B1B5ED352A950DFE00D12300 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				B12FD4ED2A8D03070052D575 /* CPData.swift */,
+				B1B5ED352A950DFE00D12300 /* CityModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,6 +284,11 @@
 				B1A352B22A8E21640051EB4E /* BorderedBtn.swift */,
 				B1A352B42A8E5EAA0051EB4E /* SocialMediaBtn.swift */,
 				B10FE2702A9398950040847D /* ImageLogoView.swift */,
+				B1B5ED252A94885E00D12300 /* FlightRoundedCardView.swift */,
+				B1B5ED2B2A94D58D00D12300 /* FlightStatusCard.swift */,
+				B1B5ED2D2A94D88B00D12300 /* HomeFlightStatusCard.swift */,
+				B1B5ED2F2A94DFF300D12300 /* CityCarouselView.swift */,
+				B1B5ED312A94FAF100D12300 /* HomeCarouselImg.swift */,
 			);
 			path = HelperWidgets;
 			sourceTree = "<group>";
@@ -283,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				B12FD4EB2A8D02CC0052D575 /* CountryNumbers.json */,
+				B1B5ED332A950CDB00D12300 /* City.json */,
 			);
 			path = JsonFiles;
 			sourceTree = "<group>";
@@ -301,7 +324,8 @@
 				B12FD4F52A8D067C0052D575 /* PhoneNumberPatternView.swift */,
 				B12FD4FC2A8D0D260052D575 /* RoundedCorners.swift */,
 				B10FE2692A93867B0040847D /* Constants.swift */,
-				B10FE2722A9399F60040847D /* Spacing.swift */,
+				B1B5ED272A94BC2C00D12300 /* Spacing.swift */,
+				B1B5ED292A94BEAD00D12300 /* IgnoreSafeArea.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -443,6 +467,7 @@
 				B12FD4AF2A8CEE660052D575 /* Assets.xcassets in Resources */,
 				B12FD5062A8D18F40052D575 /* OpenSans-SemiBold.ttf in Resources */,
 				B12FD5052A8D18F40052D575 /* OpenSans-Regular.ttf in Resources */,
+				B1B5ED342A950CDB00D12300 /* City.json in Resources */,
 				B12FD4EC2A8D02CC0052D575 /* CountryNumbers.json in Resources */,
 				B12FD5072A8D18F40052D575 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
@@ -474,26 +499,33 @@
 				B1A352AF2A8DF3C50051EB4E /* LabelledDivider.swift in Sources */,
 				B12FD4F32A8D05960052D575 /* PhoneNumberView.swift in Sources */,
 				B10FE26F2A938ACF0040847D /* FlightCarouselView.swift in Sources */,
+				B1B5ED2C2A94D58E00D12300 /* FlightStatusCard.swift in Sources */,
 				B12FD4E42A8CFF2C0052D575 /* AkasaLogo.swift in Sources */,
 				B12FD4F12A8D03530052D575 /* BundleService.swift in Sources */,
+				B1B5ED2A2A94BEAD00D12300 /* IgnoreSafeArea.swift in Sources */,
 				B12FD4EE2A8D03070052D575 /* CPData.swift in Sources */,
+				B1B5ED2E2A94D88B00D12300 /* HomeFlightStatusCard.swift in Sources */,
 				B10FE25E2A9345630040847D /* FlightBookView.swift in Sources */,
 				B10FE2622A93457A0040847D /* MoreView.swift in Sources */,
 				B12FD4FD2A8D0D260052D575 /* RoundedCorners.swift in Sources */,
-				B10FE2732A9399F60040847D /* Spacing.swift in Sources */,
 				B1A352B32A8E21640051EB4E /* BorderedBtn.swift in Sources */,
 				B1A352B12A8E20550051EB4E /* PlainTxtBtn.swift in Sources */,
 				B10FE25C2A9345490040847D /* HomeView.swift in Sources */,
 				B12FD4FB2A8D0C2A0052D575 /* FlightBtn.swift in Sources */,
 				B10FE2642A937E7F0040847D /* AuthServices.swift in Sources */,
 				B10FE2602A9345700040847D /* ProfileView.swift in Sources */,
+				B1B5ED322A94FAF100D12300 /* HomeCarouselImg.swift in Sources */,
 				B12FD4AD2A8CEE640052D575 /* MainView.swift in Sources */,
 				B12FD4F62A8D067C0052D575 /* PhoneNumberPatternView.swift in Sources */,
+				B1B5ED362A950DFE00D12300 /* CityModel.swift in Sources */,
 				B12FD4E92A8CFFD20052D575 /* FlightLogo.swift in Sources */,
+				B1B5ED282A94BC2C00D12300 /* Spacing.swift in Sources */,
+				B1B5ED262A94885E00D12300 /* FlightRoundedCardView.swift in Sources */,
 				B12FD4E72A8CFF580052D575 /* ImageConstants.swift in Sources */,
 				B12FD4AB2A8CEE640052D575 /* FlightAppApp.swift in Sources */,
 				B1A352B52A8E5EAA0051EB4E /* SocialMediaBtn.swift in Sources */,
 				B10FE2712A9398950040847D /* ImageLogoView.swift in Sources */,
+				B1B5ED302A94DFF300D12300 /* CityCarouselView.swift in Sources */,
 				B12FD4E22A8CF7E10052D575 /* FlightTxtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,14 +690,16 @@
 				INFOPLIST_FILE = FlightApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -700,14 +734,16 @@
 				INFOPLIST_FILE = FlightApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

@@ -12,6 +12,7 @@ struct Constants {
     struct AppColor {
         static let primaryColor = Color("PrimaryColor")
         static let grayColor = Color("GrayColor")
+        static let blackColor = Color("BlackColor")
     }
     
     struct AppFont {

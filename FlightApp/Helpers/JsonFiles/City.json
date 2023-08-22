@@ -1,0 +1,21 @@
+[{
+    "id": "0001",
+    "city_name": "Mumbai",
+    "city_background_img": "banner1",
+    "city_icon": "rectangle.and.pencil.and.ellipsis",
+}, {
+    "id": "0002",
+    "city_name": "Delhi",
+    "city_background_img": "banner1",
+    "city_icon": "paperplane",
+}, {
+    "id": "0003",
+    "city_name": "Kolkata",
+    "city_background_img": "banner3",
+    "city_icon": "externaldrive.badge.timemachine",
+}, {
+    "id": "0004",
+    "city_name": "Patna",
+    "city_background_img": "banner4",
+    "city_icon": "doc.text.fill",
+}]

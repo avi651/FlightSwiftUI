@@ -32,10 +32,11 @@ struct FlightCarouselView: View {
                           isWrap: isWrap,
                           autoScroll: autoScroll ? .active(time) : .inactive) { name in
                     Image(name).resizable().scaledToFill()
-                        .frame(width: UIScreen.screenWidth, height: 300.0).clipped()
+                        .frame(width: UIScreen.screenWidth, height: 300)
                 }.frame(width: UIScreen.screenWidth + 50, height: 300)
+                PageControl(index: $currentIndex, maxIndex: roles.count - 1).padding(.top, 150)
             }
-        }.overlay(PageControl(index: $currentIndex, maxIndex: roles.count - 1), alignment: .bottom)
+        }
     }
 }
 

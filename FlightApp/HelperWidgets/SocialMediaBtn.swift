@@ -20,7 +20,7 @@ struct SocialMediaBtn: View {
                             Circle()
                                 .fill(
                                     .shadow(.inner(color: Color(red: 197/255, green: 197/255, blue: 197/255),radius: 5, x:3, y: 3))
-                                    .shadow(.inner(color: .white, radius:5, x: -3, y: -3))
+                                    .shadow(.inner(color: .white, radius:4, x: -3, y: -3))
                                 )
                                 .foregroundColor(Color.white))
         }
