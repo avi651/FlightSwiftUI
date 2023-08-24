@@ -9,11 +9,10 @@ import SwiftUI
 @main
 struct FlightAppApp: App {
     let viewModel = AuthService(signedIn: false)
+    let flightUserModel = FlightCalendarViewModel()
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                MainView().environmentObject(viewModel)
-            }
+            MainView().environmentObject(viewModel).environmentObject(flightUserModel)
         }
     }
 }
