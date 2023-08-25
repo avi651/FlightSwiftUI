@@ -8,36 +8,22 @@
 import SwiftUI
 
 struct FlightBookView: View {
+    
+    @State var fromCity: String = ""
+    @State var tabBarChange = false
+    
     @EnvironmentObject var flightCalendarSelectedDate : FlightCalendarViewModel
     
-    var body: some View {
-        NavigationView{
-            List{
-                VStack{
-                    Text("Task due date: \(flightCalendarSelectedDate.date, formatter: DateFormat.taskDateFormat)")
-                }
-                NavigationLink(destination: BookingCalendarView(flightCalendarData: _flightCalendarSelectedDate)){
-                    Button(action: {
-                    }){
-                        Text("Click")
-                            .frame(width: 40, height: 40)
-                            .padding(25)
-                            .foregroundColor(Color(red: 52/255, green: 57/255, blue: 133/255))
-                            .background(
-                                Circle()
-                                    .fill(
-                                        .shadow(.inner(color: Color(red: 197/255, green: 197/255, blue: 197/255),radius: 5, x:3, y: 3))
-                                        .shadow(.inner(color: .white, radius:4, x: -3, y: -3))
-                                    )
-                                    .foregroundColor(Color.white))
-                    }
-                }
+    var body: some View{
+        VStack{
+            BookingTabBarView(bookingTabBarView: $tabBarChange).frame(height: 40)
+            Spacer().frame(height: 32)
+            VStack{
+                FlightFromToView()
             }
-        } .navigationBarTitle(Text("Featured"))
+        }.navigationBarTitle(Text("Book a flight").font(.custom(Constants.AppFont.semiBoldFont, size: 36)))
     }
 }
-
-
 
 struct FlightBookView_Previews: PreviewProvider {
     static var previews: some View {

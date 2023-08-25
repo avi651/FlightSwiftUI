@@ -51,6 +51,10 @@
 		B1A567B72A97997000EC596D /* FlightCalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A567B62A97997000EC596D /* FlightCalendarViewModel.swift */; };
 		B1A567B92A9799C200EC596D /* DateFormattor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A567B82A9799C200EC596D /* DateFormattor.swift */; };
 		B1A80BCD2A961D4A00051B7B /* FlightCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80BCC2A961D4A00051B7B /* FlightCalendarView.swift */; };
+		B1ABC17B2A988A1600CB7243 /* UnderlineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABC17A2A988A1600CB7243 /* UnderlineTextFieldView.swift */; };
+		B1ABC17D2A989DEE00CB7243 /* UnderlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABC17C2A989DEE00CB7243 /* UnderlineView.swift */; };
+		B1ABC17F2A98ABEF00CB7243 /* BookingTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABC17E2A98ABEF00CB7243 /* BookingTabBarView.swift */; };
+		B1ABC1812A98C87D00CB7243 /* FlightFromToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABC1802A98C87D00CB7243 /* FlightFromToView.swift */; };
 		B1B5ED262A94885E00D12300 /* FlightRoundedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED252A94885E00D12300 /* FlightRoundedCardView.swift */; };
 		B1B5ED282A94BC2C00D12300 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED272A94BC2C00D12300 /* Spacing.swift */; };
 		B1B5ED2A2A94BEAD00D12300 /* IgnoreSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5ED292A94BEAD00D12300 /* IgnoreSafeArea.swift */; };
@@ -133,6 +137,10 @@
 		B1A567B62A97997000EC596D /* FlightCalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCalendarViewModel.swift; sourceTree = "<group>"; };
 		B1A567B82A9799C200EC596D /* DateFormattor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattor.swift; sourceTree = "<group>"; };
 		B1A80BCC2A961D4A00051B7B /* FlightCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCalendarView.swift; sourceTree = "<group>"; };
+		B1ABC17A2A988A1600CB7243 /* UnderlineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldView.swift; sourceTree = "<group>"; };
+		B1ABC17C2A989DEE00CB7243 /* UnderlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineView.swift; sourceTree = "<group>"; };
+		B1ABC17E2A98ABEF00CB7243 /* BookingTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTabBarView.swift; sourceTree = "<group>"; };
+		B1ABC1802A98C87D00CB7243 /* FlightFromToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightFromToView.swift; sourceTree = "<group>"; };
 		B1B5ED252A94885E00D12300 /* FlightRoundedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRoundedCardView.swift; sourceTree = "<group>"; };
 		B1B5ED272A94BC2C00D12300 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		B1B5ED292A94BEAD00D12300 /* IgnoreSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeArea.swift; sourceTree = "<group>"; };
@@ -339,6 +347,8 @@
 				B1B5ED2D2A94D88B00D12300 /* HomeFlightStatusCard.swift */,
 				B1B5ED2F2A94DFF300D12300 /* CityCarouselView.swift */,
 				B1B5ED312A94FAF100D12300 /* HomeCarouselImg.swift */,
+				B1ABC17E2A98ABEF00CB7243 /* BookingTabBarView.swift */,
+				B1ABC1802A98C87D00CB7243 /* FlightFromToView.swift */,
 			);
 			path = HelperWidgets;
 			sourceTree = "<group>";
@@ -377,6 +387,8 @@
 				B1B5ED272A94BC2C00D12300 /* Spacing.swift */,
 				B1B5ED292A94BEAD00D12300 /* IgnoreSafeArea.swift */,
 				B1A567B82A9799C200EC596D /* DateFormattor.swift */,
+				B1ABC17A2A988A1600CB7243 /* UnderlineTextFieldView.swift */,
+				B1ABC17C2A989DEE00CB7243 /* UnderlineView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -664,15 +676,18 @@
 				B12FD4E42A8CFF2C0052D575 /* AkasaLogo.swift in Sources */,
 				B12FD4F12A8D03530052D575 /* BundleService.swift in Sources */,
 				B1A567B72A97997000EC596D /* FlightCalendarViewModel.swift in Sources */,
+				B1ABC17F2A98ABEF00CB7243 /* BookingTabBarView.swift in Sources */,
 				B1B5ED2A2A94BEAD00D12300 /* IgnoreSafeArea.swift in Sources */,
 				B12FD4EE2A8D03070052D575 /* CPData.swift in Sources */,
 				B1A80BCD2A961D4A00051B7B /* FlightCalendarView.swift in Sources */,
 				B1B5ED2E2A94D88B00D12300 /* HomeFlightStatusCard.swift in Sources */,
 				B1A567B52A9755C100EC596D /* BookingCalendarView.swift in Sources */,
+				B1ABC1812A98C87D00CB7243 /* FlightFromToView.swift in Sources */,
 				B10FE25E2A9345630040847D /* FlightBookView.swift in Sources */,
 				B10FE2622A93457A0040847D /* MoreView.swift in Sources */,
 				B12FD4FD2A8D0D260052D575 /* RoundedCorners.swift in Sources */,
 				B1A352B32A8E21640051EB4E /* BorderedBtn.swift in Sources */,
+				B1ABC17B2A988A1600CB7243 /* UnderlineTextFieldView.swift in Sources */,
 				B1A352B12A8E20550051EB4E /* PlainTxtBtn.swift in Sources */,
 				B10FE25C2A9345490040847D /* HomeView.swift in Sources */,
 				B12FD4FB2A8D0C2A0052D575 /* FlightBtn.swift in Sources */,
@@ -691,6 +706,7 @@
 				B10FE2712A9398950040847D /* ImageLogoView.swift in Sources */,
 				B1B5ED302A94DFF300D12300 /* CityCarouselView.swift in Sources */,
 				B12FD4E22A8CF7E10052D575 /* FlightTxtView.swift in Sources */,
+				B1ABC17D2A989DEE00CB7243 /* UnderlineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

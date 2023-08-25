@@ -16,12 +16,7 @@ struct PlainTxtBtn: View {
             }) {
                 Text(plainBtnName)
                     .font(.custom("OpenSans-Bold", size: 16)).frame(maxWidth: .infinity, maxHeight: 20)
-            }.foregroundColor(Color("PrimaryColor")).background(Color.white).clipShape(
-                RoundCorner(
-                    cornerRadius: 16,
-                    maskedCorners: [.topLeft, .bottomLeft, .bottomRight]
-                )//OUR CUSTOM SHAPE
-            )
+            }.foregroundColor(Color("PrimaryColor"))
             .buttonStyle(.plain)
             .controlSize(.large)
     }
