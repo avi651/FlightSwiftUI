@@ -15,13 +15,29 @@ struct FlightBookView: View {
     @EnvironmentObject var flightCalendarSelectedDate : FlightCalendarViewModel
     
     var body: some View{
-        VStack{
-            BookingTabBarView(bookingTabBarView: $tabBarChange).frame(height: 40)
-            Spacer().frame(height: 32)
-            VStack{
-                FlightFromToView()
+        NavigationView{
+            ZStack {
+                VStack(alignment: .leading){
+                    Text("Book a flight") .font(.custom("OpenSans-Bold", size: 22)).padding(.leading, 16)
+                    Spacer().frame(height: 32)
+                    ScrollView(.vertical, showsIndicators: false) {
+                        VStack{
+                            BookingTabBarView(bookingTabBarView: $tabBarChange).frame(height: 40)
+                            Spacer().frame(height: 32)
+                            FlightFromToView()
+                        }
+                        Spacer().frame(height: 32)
+                        FlightFromToDate()
+                        PassengarCountBtn()
+                        PromoCodeWidget()
+                        SpecialFairWidget()
+                        Spacer().frame(height: 48)
+                        FlightBtn(buttonName: "Sign in with OTP", flightBtnCallback: {}).padding(.leading, 16).padding(.trailing, 16)
+                        
+                    }
+                }
             }
-        }.navigationBarTitle(Text("Book a flight").font(.custom(Constants.AppFont.semiBoldFont, size: 36)))
+        }.expandViewOutOfSafeArea()
     }
 }
 

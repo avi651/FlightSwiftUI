@@ -17,7 +17,7 @@ struct FlightFromToView: View {
                 }) {
                     Text("From")
                         .font(.custom(Constants.AppFont.semiBoldFont, size: 36)).frame(width: UIScreen.screenWidth * 0.5, height: 70)
-                }.padding(.leading, 32)
+                }
                 .foregroundColor(Constants.AppColor.blackColor)
                 .buttonStyle(.plain)
                 .controlSize(.large)
@@ -34,12 +34,12 @@ struct FlightFromToView: View {
                 }) {
                     Text("To")
                         .font(.custom(Constants.AppFont.semiBoldFont, size: 36)).frame(width: UIScreen.screenWidth * 0.5, height: 70)
-                }.padding(.trailing, 16).foregroundColor(Constants.AppColor.blackColor)
+                }.foregroundColor(Constants.AppColor.blackColor)
                     .buttonStyle(.plain)
                     .controlSize(.large)
             }
-            UnderlineView(forgroundColor:  Constants.AppColor.grayColor ).frame(width: UIScreen.screenWidth)
-        }
+            UnderlineView(forgroundColor:  Constants.AppColor.grayColor )
+        }.frame(width: UIScreen.screenWidth, height: 70)
     }
 }
 
